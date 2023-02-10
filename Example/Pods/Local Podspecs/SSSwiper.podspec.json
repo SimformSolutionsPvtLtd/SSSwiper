@@ -1,0 +1,22 @@
+{
+  "name": "SSSwiper",
+  "version": "0.1.0",
+  "summary": "A short description of SSSwiper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shubhamsimformsolutions/SSSwiper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shubhamsimformsolutions": "you@example.com"
+  },
+  "source": {
+    "git": "https://github.com/shubhamsimformsolutions/SSSwiper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SSSwiper/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module SSSwiper {
+  umbrella header "SSSwiper-umbrella.h"
+
+  export *
+  module * { export * }
+}
