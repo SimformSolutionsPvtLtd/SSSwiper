@@ -43,10 +43,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		61DE923070BC21D8045E44B9 /* Pods_SSSwiper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSSwiper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E90D1055A7898817DFEC2FA /* Pods-SSSwiper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiper_Example.release.xcconfig"; path = "Target Support Files/Pods-SSSwiper_Example/Pods-SSSwiper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8F4C1E9699C3E58E389840E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B5EFCF6E0B75236D26EBE606 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8F4C1E9699C3E58E389840E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B5EFCF6E0B75236D26EBE606 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B8CE8962CA1280DD87849DDD /* Pods-SSSwiper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiper_Tests.release.xcconfig"; path = "Target Support Files/Pods-SSSwiper_Tests/Pods-SSSwiper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C59270B26647218B865AC903 /* SSSwiper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SSSwiper.podspec; path = ../SSSwiper.podspec; sourceTree = "<group>"; };
+		C59270B26647218B865AC903 /* SSSwiper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSSwiper.podspec; path = ../SSSwiper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 				0750CD147B566D46E9B3A55D /* Pods-SSSwiper_Tests.debug.xcconfig */,
 				B8CE8962CA1280DD87849DDD /* Pods-SSSwiper_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
