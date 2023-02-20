@@ -4,11 +4,12 @@
 
 [![Version](https://img.shields.io/cocoapods/v/SSStepper.svg?style=flat)](https://cocoapods.org/pods/SSStepper)
 [![Platform](https://img.shields.io/cocoapods/p/SSStepper.svg?style=flat)](https://cocoapods.org/pods/SSStepper)
+[![Source](https://img.shields.io/badge/Source-SwiftUI-red)](https://cocoapods.org/pods/SSStepper)
 [![Swift Version][swift-image]][swift-url]
 [![PRs Welcome][PR-image]][PR-url]
 [![Twitter](https://img.shields.io/badge/Twitter-@simform-blue.svg?style=flat)](https://twitter.com/simform)
 
-SSSwiper is used to create swipe gestures action inside any view just by adding a modifier to the View with various customization options.
+SSSwiper is SWIFTUI package which is used to create swipe gestures action inside any view just by adding a modifier to the View with various customization options.
 
 ![Example of SSSwiper - Swiping](GIFs/SwipeGestures.gif) | ![Example of SSSwiper - Click Action](GIFs/ClickEvent.gif) | ![Example of SSSwiper - Destruction](GIFs/Destructive.gif) | <br/>
 *An example of Swipers created with this library*
@@ -53,7 +54,7 @@ Import the package in the file you would like to use it:
 import SSSwiper
 ```
 
-This library shares one modifier which you can use to add functionality of swiping gesture. You also need to create one array of SwipeItems(Action Buttons) which take AnyView as your button design and pass that to the modifier.
+This library shares one modifier which you can use to add functionality of swiping gesture. You also need to create one array of SwipeItems(Action Buttons) which take AnyView as your button design (You have to cast your view to AnyView with .castToAnyView, which will be accessible to you after installation) and pass that to the modifier.
 Basic example:
 
 ```swift
